@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.MyTransactionApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary and secondary colors -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryLightColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+
+        <!-- Customize your theme here -->
+        <item name="android:statusBarColor">@color/primaryLightColor</item>
+        <item name="android:navigationBarColor">@color/primaryColor</item>
+        <item name="android:windowBackground">@color/appBackground</item>
+    </style>
+
+    <!-- Custom Text Styles -->
+    <style name="TextAppearance.AppCompat.Large">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Medium">
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>
